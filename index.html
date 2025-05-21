@@ -2,124 +2,92 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Blog - Hitesh Choudhary</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hitesh Choudhary</title>
   <style>
     body {
       background-color: #000;
       color: #fff;
       font-family: monospace;
       padding: 20px;
-      margin: 0;
     }
-
     h1 {
       font-size: 2em;
     }
-
-    a {
-      color: #0af;
-      text-decoration: none;
-    }
-
-    a:hover {
-      text-decoration: underline;
-    }
-
-    .section-title {
-      font-size: 1.5em;
-      margin-top: 40px;
-    }
-
-    .blog-card {
-      display: flex;
-      background-color: #111;
-      border: 1px solid #444;
-      border-radius: 10px;
-      padding: 16px;
-      margin-top: 20px;
-      flex-wrap: wrap;
-    }
-
-    .blog-text {
-      flex: 1;
-      min-width: 240px;
-      margin-right: 20px;
-    }
-
-    .blog-title {
-      font-size: 1.2em;
-      font-weight: bold;
-      margin-bottom: 8px;
-    }
-
-    .blog-subtitle {
-      color: #ccc;
-      margin-bottom: 10px;
-    }
-
-    .blog-meta {
-      font-size: 0.9em;
-      color: #aaa;
-      margin-bottom: 10px;
-    }
-
-    .blog-links a {
-      display: inline-block;
-      margin-right: 10px;
-      color: orange;
-    }
-
-    .blog-image {
-      width: 120px;
-      height: 120px;
-      border-radius: 8px;
+    .photo-wrapper {
+      width: 150px;
+      height: 150px;
       overflow: hidden;
-      flex-shrink: 0;
+      border-radius: 10px;
+      border: 2px solid #fff;
+      margin-top: 10px;
     }
-
-    .blog-image img {
+    .photo-wrapper img {
       width: 100%;
       height: 100%;
       object-fit: cover;
       display: block;
     }
-
-    @media (max-width: 600px) {
-      .blog-card {
-        flex-direction: column;
-        align-items: flex-start;
-      }
-
-      .blog-text {
-        margin-right: 0;
-        margin-bottom: 12px;
-      }
-
-      .blog-image {
-        width: 100%;
-        height: auto;
-      }
+    .intro {
+      margin-top: 10px;
+      line-height: 1.6;
+      white-space: pre-wrap;
+    }
+    button, .button {
+      display: inline-block;
+      background: #eee;
+      border: 2px solid #aaa;
+      border-radius: 4px;
+      padding: 6px 12px;
+      margin: 4px;
+      font-family: monospace;
+      cursor: pointer;
+      transition: background 0.2s;
+    }
+    button:hover, .button:hover {
+      background: #ccc;
+    }
+    .section-title {
+      font-size: 1.5em;
+      margin-top: 40px;
+    }
+    .link-row {
+      margin-top: 20px;
     }
   </style>
 </head>
 <body>
 
-  <h1>Hitesh Choudhary - Blog</h1>
+  <h1>Shivam Singh</h1>
+  <div class="photo-wrapper">
+    <img src="photo.jpg" alt="Hitesh Choudhary">
+  </div>
 
-  <div class="blog-card">
-    <div class="blog-text">
-      <div class="blog-title">Why You're Struggling to Learn DevOps (And How to Fix It in 30 Days)</div>
-      <div class="blog-subtitle">Escape the DevOps learning trap in 30 days by building a real project with Kubernetes.</div>
-      <div class="blog-meta">📅 Apr 15 &nbsp;&nbsp; 👁 118 &nbsp;&nbsp; 💬 7</div>
-      <div class="blog-links">
-        <a href="https://liveproject.example.com" target="_blank">🔗 Live Project</a>
-        <a href="https://github.com/yourusername/devops-project" target="_blank">💻 GitHub Source</a>
-      </div>
-    </div>
-    <div class="blog-image">
-      <img src="66a53cee-891e-4bb4-8555-890a1aa11bed.png" alt="DevOps Blog Image">
-    </div>
+  <p class="intro">
+Welcome to my home page ✌
+
+My Name is Hitesh Choudhary and I am a teacher by profession. I teach coding to various level of students, right from beginners to folks who are already writing great softwares. I have been teaching on for more than 10 years now and it is my passion to teach people coding. It's a great feeling when you teach someone and they get a job or build something on their own. Before you ask, all buttons on this website are inspired by Windows 7.
+
+In past, I have worked with many companies and on various roles such as Cyber Security related roles, iOS developer, Tech consultant, Backend Developer, Content Creator, CTO and these days, I am at full time job as Senior Director at PW (Physics Wallah). I have done my fair share of startup too, my last Startup was LearnCodeOnline where we served 350,000+ user with various courses and best part was that we are able to offer these courses are pricing of 299-399 INR, crazy right 😱? But that chapter of life is over and I am no longer incharge of that platform.
+
+I think we have already complicated the front end too much, so I am opting for a simpler solution for my home page and this is one of the fastest web page on the internet.
+  </p>
+
+  <div class="link-row">
+    <button>Link for sponsors</button>
+  </div>
+
+  <h2 class="section-title">You are here for<span style="color: orange;">...</span></h2>
+
+  <p>I think you are here to get to know me. Best way is to start with my work.</p>
+
+  <div class="link-row">
+    <button>English Youtube channel</button>
+    <button>Hindi Youtube channel</button>
+    <button>Open Source Project</button>
+    <button>WhatsApp</button>
+    <button>Discord</button>
+    <button>What can I Learn in Hindi with you ?</button>
+    <button>What can I Learn in English with you ?</button>
   </div>
 
 </body>
