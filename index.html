@@ -8,11 +8,12 @@
     </title>
     <script src="https://cdn.tailwindcss.com">
     </script>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+    <!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" /> -->
     <style>
         body {
             font-family: monospace;
         }
+
         html {
             scroll-behavior: smooth;
         }
@@ -23,33 +24,66 @@
     <h1 class="text-[20px] font-normal mb-4 mt-2">
         Shivam Singh 🙏
     </h1>
-    <div>
-    <img alt="Portrait of Hitesh Choudhary with glasses and beard smiling in front of microphone"
-        class="w-[200px] h-[200px] rounded-lg mb-4 mt-1" height="100"
-        src="https://storage.googleapis.com/a1aa/image/9b96269d-5d97-44d1-fde1-99a16767b97a.jpg" width="100" />
+    <div class="flex items-start gap-6 flex-row">
+        <!-- Profile Picture -->
+        <div class="flex-shrink-0">
+            <img alt="Portrait of Shivam Singh" class="w-[200px] h-[200px] rounded-lg"
+                src="https://storage.googleapis.com/a1aa/image/9b96269d-5d97-44d1-fde1-99a16767b97a.jpg" />
+        </div>
+
+        <!-- Badges with column wrap -->
+        <div class="flex flex-wrap max-h-[200px] overflow-y-auto" style="max-height: 200px;">
+            <div class="flex flex-col gap-2 mr-4">
+                <a href="https://www.credly.com/badges/example-badge-1" target="_blank" title="Credly Badge 1">
+                    <img src="./awsone.png" alt="Badge 1" class="w-[95px] h-[95px] rounded" />
+                </a>
+                <a href="https://www.credly.com/badges/example-badge-1" target="_blank" title="Credly Badge 1">
+                    <img src="./awsone.png" alt="Badge 1" class="w-[95px] h-[95px] rounded" />
+                </a>
+            </div>
+            <div class="flex flex-col gap-5 mr-4">
+                <a href="https://www.credly.com/badges/example-badge-1" target="_blank" title="Credly Badge 1">
+                    <img src="././batchs/azure-introduction-to-azure-search.svg" alt="Badge 1"
+                       class="w-[85px] h-[85px] rounded" />
+                </a>
+                <a href="https://www.credly.com/badges/example-badge-1" target="_blank" title="Credly Badge 1">
+                    <img src="./batchs/ai-education.svg" alt="Badge 1" class="w-[85px] h-[85px] rounded" />
+                </a>
+            </div>
+        </div>
     </div>
-    <p class="text-[14px] mb-4 mt-1">
+
+    <p class="text-[14px] mb-4 mt-5">
         Welcome to my home page 🍵
     </p>
     <p class="text-[14px] mb-4">
-        My Name is Shivam Singh and I am a teacher by profession. I teach coding to various level of students, right
+        My Name is Shivam Singh and I am a teacher by profession. I teach coding to various level of
+        students, right
         from beginners to folks who are already writing great softwares.
     </p>
     <p class="text-[14px] mb-4">
-        I have been teaching on for more than 10 years now and it is my passion to teach people coding. It's a great
-        feeling when you teach someone and they get a job or build something on their own. Before you ask, all buttons
+        I have been teaching on for more than 10 years now and it is my passion to teach people coding. It's
+        a great
+        feeling when you teach someone and they get a job or build something on their own. Before you ask,
+        all buttons
         on this website are inspired by Windows 7.
     </p>
     <p class="text-[14px] mb-4">
-        In past, I have worked with many companies and on various roles such as Cyber Security related roles, iOS
-        developer, Tech consultant, Backend Developer, Content Creator, CTO and these days, I am at full time job as
-        Senior Director at PW (Physics Wallah). I have done my fair share of startup too, my last Startup was
-        LearnCodeOnline where we served 350,000+ user with various courses and best part was that we are able to offer
-        these courses are pricing of 299-399 INR, crazy right 😱? But that chapter of life is over and I am no longer
+        In past, I have worked with many companies and on various roles such as Cyber Security related
+        roles, iOS
+        developer, Tech consultant, Backend Developer, Content Creator, CTO and these days, I am at full
+        time job as
+        Senior Director at PW (Physics Wallah). I have done my fair share of startup too, my last Startup
+        was
+        LearnCodeOnline where we served 350,000+ user with various courses and best part was that we are
+        able to offer
+        these courses are pricing of 299-399 INR, crazy right 😱? But that chapter of life is over and I am
+        no longer
         incharge of that platform.
     </p>
     <p class="text-[14px] mb-6">
-        I think we have already complicated the front end too much, so I am opting for a simpler solution for my home
+        I think we have already complicated the front end too much, so I am opting for a simpler solution
+        for my home
         page and this is one of the fastest web page on the internet.
     </p>
     <a class="inline-block bg-white text-black text-[14px] font-semibold px-3 py-1 rounded mb-6 mt-2 hover:bg-red-600 hover:text-white transition-colors duration-300"
@@ -99,6 +133,7 @@
             What can I Learn in English with you ?
         </a>
     </div>
-    
+
 </body>
+
 </html>
