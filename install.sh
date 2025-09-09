@@ -16,6 +16,10 @@ sudo docker build -t hellowebsite .
 
 sudo docker run -d -p 83:80 hellowebsite
 
+cd ..
+
+sudo rm -rf Testing_terra
+
 echo " Deloyment compelete 👌"
 
 curl ipinfo.io/ip
