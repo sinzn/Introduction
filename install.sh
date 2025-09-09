@@ -14,7 +14,7 @@ cd Testing_terra || exit
 
 sudo docker build -t dockertest .
 
-sudo docker run -d -p 80:80 dockertest
+sudo docker run -d -p 80:83 dockertest
 
 echo " Deloyment compelete 👌"
 
