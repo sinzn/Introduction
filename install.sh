@@ -12,10 +12,10 @@ git clone https://github.com/sinzn/Testing_terra.git
 
 cd Testing_terra || exit
 
-sudo docker build -t dockertest .
+sudo docker build -t hellowebsite .
 
-sudo docker run -d -p 83:80 dockertest
+sudo docker run -d -p 83:80 hellowebsite
 
 echo " Deloyment compelete 👌"
 
-curl ipinfo.me/ip
+curl ipinfo.io/ip
